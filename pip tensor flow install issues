@@ -9,4 +9,4 @@ tensorflow-0.11.0rc0-py3-none-any.whl is not a supported wheel on this platform.
 
 I used the code below to fix it:
 
-dabeers-mbp:~ zuni$ sudo -H pip install virtualenv
+dabeers-mbp:~ zuni$ sudo -H pip install virtualenv 
