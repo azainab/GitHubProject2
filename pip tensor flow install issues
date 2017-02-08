@@ -1,0 +1,12 @@
+sudo pip3 install --upgrade $TF_BINARY_URL
+
+I was getting the error below:
+
+
+The directory '/Users/zuni/Library/Caches/pip/http' or its parent directory is not owned by the current user and the cache has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+The directory '/Users/zuni/Library/Caches/pip' or its parent directory is not owned by the current user and caching wheels has been disabled. check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+tensorflow-0.11.0rc0-py3-none-any.whl is not a supported wheel on this platform.
+
+I used the code below to fix it:
+
+dabeers-mbp:~ zuni$ sudo -H pip install virtualenv
